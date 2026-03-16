@@ -1,0 +1,17 @@
+# Mengabaikan file sistem Windows & Mac (sering bikin berat)
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Mengabaikan folder pengaturan VS Code agar tidak bentrok di komputer lain
+.vscode/
+
+# Mengabaikan log error (jika ada)
+*.log
+npm-debug.log*
+
+# Jika Anda nantinya menggunakan library (seperti Bootstrap via NPM), abaikan foldernya
+node_modules/
+
+# Jika ada file gambar mentah yang sangat besar (opsional)
+# images/mentah/
